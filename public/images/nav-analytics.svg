@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>nav-analytics</title>
+	<defs>
+		<image  width="38" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAoCAMAAACl6XjsAAAAAXNSR0IB2cksfwAAAHVQTFRFAAAAZkzla1bnalbmalfnalbncVXialfma1fnalfma1fna1fma1fmbFblalfna1fma1bnaVfpbFfnalfmaljmaVrha1fmalfnb0/falfmalblalbmalbmalbma1bna1bma1bma1bma1Xoalbna1fma1fnaFboGAGWjAAAACd0Uk5TAAqC3PmBCcf/xoDb/Du487c6VftUEfDvEF1bfNp/7sX6Uzm28rU486L8IAAAANVJREFUeJztlEkLwkAMhfu6jOKCUFsXvPn/f5EXD+6gCKKiRa3OTCbFIvGognOYJLwPWt4kgScePE7uI4NMKaPjKmO+oihjQURRxhoXG0MZq/JPfgZzDsoYO/iKKzB28Chi7OBBxNjBvYhxdvp+rAnt+PYNFkMbU8daxFLsTNHCUsL69DUvnkvYYENVeyZhtRtV9on/2E9iz5NVevpicbk5Tab6LjUSi4gCm6UTc1NbdjLTlixCBblOugu7Q5JcN3kPY1OxCE+FOFfilds0QzMyI6qceAeIV16LucxjnwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="5" y="4"/>
+</svg>

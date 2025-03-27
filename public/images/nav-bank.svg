@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>institution</title>
+	<defs>
+		<image  width="46" height="45" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAtCAMAAADm86mrAAAAAXNSR0IB2cksfwAAAMNQTFRFAAAAf3//a1bna1bnbFboalfna1fna1bmbFfnAAD/aVfpa1fna1bmbFjna1XoalfnalfmaVbmaVfma1fmbFbpblXlalbna1fmalbmalXpbVXmalbmalfna1bma1jrcVXia1fna1fma1fna1bmaFznc1zna1fnalfna1fmZlXuf1XUa1fma1fmalfncVXialfmalbnfz//a1fna1bnalfnalbna1fnZlvqalbmalbma1fnalfna1bmalbnalXlalbma1bmSLBE7gAAAEF0Uk5TAAJY1kTN/9RVATrAyEItqrs1Kf4vHpn8/SQViPj6GhKA8vWRFgt37/MPBmbn7Ane4wTD97i2tRlK5c/h5tc82tHdRdx6AAAA/klEQVR4nO3V7wfCQBgH8PuyVka9KBlJEYkpJUmk/v0klRKRiEgkerEXaZPl1vq13W53vUzfV3ue++xx59hAGAFAHMdhrTB6CnB/5yzANdjekwoziqc+Rmo48Xj6qvgGasoxjGfhH0YnnLU9i+eAQwDT6JfE1s+LwI6JafLA+p2XgU0opimZqeWDG8CKi2kql8SccsQry0hMY9jqFKS5EMI01QmIKqwJsaS5VL7g79uxuJXL86/Lr425lctb82erPuJWLi/oM6/TwJBbeUd97NCKqv78z3+AC0eWdzAWtenSAt2RxPAYZL55pC3LM4F/J5f3hhI8hj4GojhZm9wAnVxtFB3+YvIAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="2" y="2"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>nav-payments</title>
+	<defs>
+		<image  width="41" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAMAAACfvvDEAAAAAXNSR0IB2cksfwAAALdQTFRFAAAAa1joalbnalfnaVfpbFfnalfma1fnalbmaVbnbFfma1fna1fna1blbFXma1fnAAD/a1bma1fna1fmaVrha1bnaVXma1fma1Xma1fmaVfmaljmaFboVVX/alfmbUjaalfnaljnalfna1fmalfmalfoX1/fZmb/a1bma1bma1fmbFbla1fna1bna1bma1fmalfnalfma1jna1fmbFblbFfna1fmalfnaljmf1XUaVbmfz//f3//qNcz0QAAAD10Uk5TAE7XzTpX+//0QUnYzzJc9QHpyvwR7j/+aHJSVDgDyQf5bvjwaU8IBVPf0ztM1tHy9tJrdFBj8+xIBmoEAhPEfBAAAAFCSURBVHic7dRBS8MwFAfw92DV6lgosiFTioi6iQiCw4P69T148qJOxZvtFKZU0U07FerLa9M1bbKjpz0oDf/+2jQpfQiqkOoX7IVq4CAS/tKvLtPdHyUpYjlyvzXq4SfUI10KZ8RnnTbpeeJZkwqWaFU6YpRfdReHdikXA95begCKoU0yTFZeKa1FGi3JtRcJWxNO20yboUn68buEgyxluvpgkhv4JGGeSlobG2ffRIwHhXQ7bHj35hV18E5LfQjsO19O53Iu/1/uUpe5LmT7iH2j7Lq33KNUJltR1yyXbribZBl3mD3z7Ic0NdE6ZwyTjmVFvStJdy4pmzBMfmxrZ7pO/2zSSKF9l5hmJeGM/WxHOaTGMXPnFU3hVPoLIWz1oUozOJVwRN/lXJP8rgoWJByHAZTq5OIgeISKNNUpnqnhHxYR1blKxE/wAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="3" y="3"/>
+</svg>

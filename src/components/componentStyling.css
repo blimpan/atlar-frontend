@@ -1,0 +1,37 @@
+
+.nav-button {
+    display: flex;
+    flex-direction: row;
+    width: 83%;
+    gap: 0.5rem;
+    align-items: center;
+    border-width: 1px;
+    border-color: #d1d5db; /* gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 0.5rem; /* p-2 */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+}
+
+.nav-button:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15); /* shadow-md */
+}
+
+.widget-border {
+    border-width: 1px;
+    border-color: #d1d5db; /* gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 1rem; /* p-2 */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+}
+
+.custom-table-cell {
+    white-space: nowrap;
+    overflow: auto;
+    border-width: 1px;
+    border-color: #d1d5db; /* gray-300 */
+    text-align: left;
+    padding-top: 0.25rem; /* py-1 */
+    padding-bottom: 0.25rem; /* py-1 */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+}
