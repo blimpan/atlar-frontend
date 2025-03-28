@@ -33,3 +33,4 @@ Basic demo covering the following day-to-day tasks of a customer working in a fi
 
 - Use styling (mostly colors) more consistently in order to make the most relevant information stand out and make interactive elements better communicate that they are interactive to the user.
 
+- Some columns in tables aren't populated with actual data (ex: 'Sample bank' on Home page) because I couldn't find the desired data. Went through the Key Concepts doc to get clarification but couldn't find what I was looking for.
