@@ -1,54 +1,27 @@
-# React + TypeScript + Vite
+# Atlar frontend home assignment
+Basic demo covering the following day-to-day tasks of a customer working in a finance team:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- *"I log in to each bank every morning to verify that we do not have any account with zero or negative balance"*
 
-Currently, two official plugins are available:
+- *"I note the account balance for each account into my own excel sheet, then look at the trend of account balances over time to see that we're not trending aggressively downwards"*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- *"I go through our transactions and check that there are no big, potentially fraudulent, pay-outs from our accounts during the past days (above ~10k EUR would be considered suspicious)"*
 
-## Expanding the ESLint configuration
+## Prerequisites & instructions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. Vite installed.
+2. Local environment variables VITE_ATLAR_API_URL and VITE_ATLAR_AUTH set so that they can be referenced by 'import.meta.env.[VARIABLE NAME]'.
+3. Navigate to root folder of project.
+4. Run 'npm run dev' to start development server. Make sure port used is 3000 to avoid CORS issues.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## TODO
+- Responsiveness for smaller (e.g. mobile) screens. I limited the project to desktops assuming that most users will access the app at work on their computer.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Pushing of data to server. Right now the app is read-only, meaning the user can't make any changes to the stored data, only fetch and display it.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- The user should be able to click on e.g. an account listed in the Home view and be taken to a page showing more details. I have done a very simple implementation of this for the payments page.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Tables showing data should be limited to for example 20 rows and then require some sort of interaction from the user in order to load more.
+
+- Use styling (mostly colors) more consistently in order to make the most relevant information stand out and make interactive elements better communicate that they are interactive to the user.
+
