@@ -10,7 +10,15 @@ Basic demo covering the following day-to-day tasks of a customer working in a fi
 ## Prerequisites & instructions
 
 1. Vite installed.
-2. Local environment variables VITE_ATLAR_API_URL and VITE_ATLAR_AUTH set so that they can be referenced by 'import.meta.env.[VARIABLE NAME]'.
+2. Local environment variables `VITE_ATLAR_API_URL` and `VITE_ATLAR_AUTH` set so that they can be referenced by `import.meta.env.[VARIABLE NAME]`.
+
+    **Example (in .env.local)**
+
+    `VITE_ATLAR_API_URL='https://api.atlar.com/financial-data/v2/'`
+
+    `VITE_ATLAR_AUTH='Basic VVNFk5BTU6k9U00VQQNTV09SRDEyMzQ1='`
+    
+
 3. Navigate to root folder of project.
 4. Run 'npm run dev' to start development server. Make sure port used is 3000 to avoid CORS issues.
 
