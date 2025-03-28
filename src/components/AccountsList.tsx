@@ -11,6 +11,22 @@ interface ComponentProps {
 };
 
 
+/**
+ * @component
+ * A React functional component that displays a list of bank accounts along with their associated entities,
+ * booked balances, and converted balances in the specified currency. The component fetches data from
+ * session storage or makes API calls to retrieve the necessary information.
+ *
+ * @param {Readonly<ComponentProps>} props - The component props.
+ * @param {string} props.currentCurrency - The currency in which the balances should be displayed.
+ *
+ * @returns {JSX.Element} A table displaying the list of accounts and their details.
+ * 
+ * @example
+ * ```tsx
+ * <AccountsList currentCurrency="USD" />
+ * ```
+ */
 export default function AccountsList({ currentCurrency }: Readonly<ComponentProps>) {
 
     const [isLoading, setIsLoading] = useState<boolean>(true);

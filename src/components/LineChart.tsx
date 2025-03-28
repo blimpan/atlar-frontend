@@ -12,9 +12,17 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 
-
 // Register Chart.js components
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+  Filler
+);
 
 interface Props {
   labels: string[];
@@ -22,7 +30,6 @@ interface Props {
 }
 
 const LineChartComponent: React.FC<Props> = ({ labels, values }) => {
-
   const data = {
     labels,
     datasets: [
@@ -38,7 +45,6 @@ const LineChartComponent: React.FC<Props> = ({ labels, values }) => {
   };
 
   const options = {
-    
     responsive: true,
     maintainAspectRatio: false, // Allow the chart to resize both ways
     plugins: {
@@ -52,7 +58,7 @@ const LineChartComponent: React.FC<Props> = ({ labels, values }) => {
         },
         align: "start" as "start" | "end" | "center",
         color: "#333", // Title color
-        padding: { top: 0, bottom: 15, }, // Adds spacing around title
+        padding: { top: 0, bottom: 15 }, // Adds spacing around title
       },
     },
     scales: {

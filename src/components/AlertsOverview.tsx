@@ -5,6 +5,18 @@ import { checkTransactions, keepOnlyLatest } from "../util/Transaction";
 import { useNavigate } from "react-router-dom";
 
 
+/**
+ * @component
+ * Displays an overview of alerts related to accounts,
+ * including the number of accounts with negative balances and the count of suspicious transactions.
+ * It fetches account data, balances, and suspicious transactions on mount and caches the data in session storage.
+ *
+ * @returns {JSX.Element} A React component that displays alerts and provides navigation to the payments page.
+ *
+ * @example
+ * // Example usage of the component:
+ * <AlertsOverview />
+ */
 export default function AlertsOverview() {
 
     const navigate = useNavigate();
