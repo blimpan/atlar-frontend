@@ -121,7 +121,7 @@ export default function Payments() {
 
       <div className="flex flex-col w-full h-full">
         <div className="flex flex-row w-full h-fit border-b border-gray-300">
-          {" "}
+
           {/* Header */}
           {!showSidePanel && (
             <button
@@ -140,13 +140,13 @@ export default function Payments() {
         </div>
 
         <div className="flex flex-col w-full h-full gap-4 p-4 fade-in">
-          {" "}
+
           {/* Widgets */}
           <div className="flex flex-row gap-6 w-fit h-fit">
-            {" "}
+
             {/* Settings */}
             <div className="flex items-center">
-              {" "}
+
               {/* Account selector */}
               <select
                 className="text-lg font-semibold px-1 py-0.5"
@@ -165,7 +165,7 @@ export default function Payments() {
               </select>
             </div>
             <div className="flex items-center gap-1.5">
-              {" "}
+
               {/* Currency selector */}
               <p className="text-sm">Show in</p>
               <select // Using static list because using every currency in Currency.tsx would be too much
@@ -181,17 +181,17 @@ export default function Payments() {
             </div>
           </div>
           <div className="flex flex-col w-full widget-border fade-in">
-            {" "}
+
             {/* Transactions table */}
             <div className="flex flex-row px-4 gap-2 py-1 font-semibold">
-              {" "}
+
               {/* Table header */}
               <p className="">
-                {" "}
+
                 {selectedAccount ? "Account" : "All suspicious"} transactions
               </p>
               <p className="self-center text-gray-500 text-sm ">
-                {" "}
+
                 Showing {displayedTransactions.length} most recent
                 transaction(s)
               </p>
@@ -233,8 +233,8 @@ export default function Payments() {
                           >
                             {formatCurrencyString(
                               transaction.amount.value / 100
-                            )}{" "}
-                            {transaction.amount.currency}{" "}
+                            )}
+                            {transaction.amount.currency}
                           </td>
                           <td className="custom-table-cell">
                             {formatCurrencyString(
@@ -243,11 +243,11 @@ export default function Payments() {
                                 transaction.amount.currency,
                                 targetCurrency
                               )
-                            )}{" "}
+                            )}
                             {targetCurrency}
                           </td>
                           <td className="custom-table-cell">
-                            {" "}
+
                             <p
                               className={`w-fit font-semibold text-sm ${
                                 transaction.reconciliationStatus == "RECONCILED"
@@ -255,21 +255,19 @@ export default function Payments() {
                                   : "bg-red-300"
                               }`}
                             >
-                              {" "}
-                              {transaction.reconciliationStatus}{" "}
+                              {transaction.reconciliationStatus}
                             </p>
                           </td>
                           {!selectedAccount && (
                             <td className="custom-table-cell">
-                              {" "}
+
                               <button
                                 className="w-full h-full border border-gray-300 rounded-lg p-1 hover:shadow-sm"
                                 value={transaction.accountId}
                                 onClick={onSelectAccount}
                               >
-                                {" "}
-                                Go to{" "}
-                              </button>{" "}
+                                Go to
+                              </button>
                             </td>
                           )}
                         </tr>

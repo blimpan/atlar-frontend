@@ -34,7 +34,7 @@ export default function Home() {
 
       <div className="flex flex-col w-full h-full">
         <div className="flex flex-row w-full h-fit border-b border-gray-300">
-          {" "}
+
           {/* Header */}
           {!showSidePanel && (
             <button
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col w-full h-full gap-4 p-4 fade-in">
-          {" "}
+
           {/* Widgets */}
           <div className="flex flex-row gap-4 w-full h-full">
             <div className="flex flex-col min-w-fit h-full gap-4">

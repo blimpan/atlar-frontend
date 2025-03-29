@@ -55,8 +55,7 @@ export default function SidePanel({
   return (
     <div className="grow min-w-[250px] max-w-[325px] h-screen flex flex-col bg-[#FCFCFE] pt-3 items-center gap-5 font-semibold border-r border-gray-300">
       <div className="flex flex-row -ml-1 mb-4 items-center justify-between w-5/6">
-        {" "}
-        {/* Atlar logo */}
+        
         <img
           src={atlarSvg}
           alt="Atlar logo"
