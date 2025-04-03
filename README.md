@@ -9,8 +9,9 @@ Basic demo covering the following day-to-day tasks of a customer working in a fi
 
 ## Prerequisites & instructions
 
-1. Vite installed.
-2. Local environment variables `VITE_ATLAR_API_URL` and `VITE_ATLAR_AUTH` set so that they can be referenced by `import.meta.env.[VARIABLE NAME]`.
+1. Clone repo.
+2. Run 'npm install' in root folder to install all required dependencies.
+4. Set local environment variables `VITE_ATLAR_API_URL` and `VITE_ATLAR_AUTH` in root folder so that they can be referenced by `import.meta.env.[VARIABLE NAME]`.
 
     **Example (in .env.local)**
 
@@ -18,9 +19,8 @@ Basic demo covering the following day-to-day tasks of a customer working in a fi
 
     `VITE_ATLAR_AUTH='Basic VVNFk5BTU6k9U00VQQNTV09SRDEyMzQ1='`
     
-
-3. Navigate to root folder of project.
-4. Run 'npm run dev' to start development server. Make sure port used is 3000 to avoid CORS issues.
+5. Navigate to root folder of project.
+6. Run 'npm run dev' to start development server. Make sure port used is 3000 to avoid CORS issues.
 
 ## TODO
 - Responsiveness for smaller (e.g. mobile) screens. I limited the project to desktops assuming that most users will access the app at work on their computer.
