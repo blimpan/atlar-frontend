@@ -1,4 +1,4 @@
-# Atlar frontend home assignment
+# Fintech demo
 Basic demo covering the following day-to-day tasks of a customer working in a finance team:
 
 - *"I log in to each bank every morning to verify that we do not have any account with zero or negative balance"*
@@ -18,9 +18,11 @@ Basic demo covering the following day-to-day tasks of a customer working in a fi
     `VITE_ATLAR_API_URL='https://api.atlar.com/financial-data/v2/'`
 
     `VITE_ATLAR_AUTH='Basic VVNFk5BTU6k9U00VQQNTV09SRDEyMzQ1='`
+
+      ^ These examples won't work for obvious reasons 
     
-5. Navigate to root folder of project.
-6. Run 'npm run dev' to start development server. Make sure port used is 3000 to avoid CORS issues.
+6. Navigate to root folder of project.
+7. Run 'npm run dev' to start development server. Make sure port used is 3000 to avoid CORS issues.
 
 ## TODO
 - Responsiveness for smaller (e.g. mobile) screens. I limited the project to desktops assuming that most users will access the app at work on their computer.
